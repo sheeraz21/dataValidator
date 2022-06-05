@@ -1,12 +1,12 @@
 {
-  "name": "test1",
-  "version": "1.0.0",
+  "name": "spec-validator",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "syed sheeraz shaukat",
+  "main": "./lib/validator.js",
+  "bin": {
+    "spec-validator": "./bin/index.js"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "openapi-enforcer": "^1.19.0"
